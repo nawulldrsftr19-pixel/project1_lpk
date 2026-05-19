@@ -6,16 +6,21 @@ st.write(
 )
 (import streamlit as st
 
-st.markdown("*naufa* is **really** ***cool***.")
-st.markdown('''
-    :red[naufa] :orange[ha] :green[pink] :pink[text] :violet[in]
-    :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
-st.markdown("Here's a bouquet &mdash;\
-            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+st.markdown("*mari membuat kalkulator*.")
+import streamlit as st
 
-multi = '''If you end a line with two spaces,
-a soft return is used for the next line.
+number 1 = st.number_input("Insert a number 1")
+number 2 = st.number_input("Insert a number 2")
+st.write("The current number is ", number)
 
-Two (or more) newline characters in a row will result in a hard return.
-'''
-st.markdown(multi)
+import streamlit as st
+
+tambah=st.button("+")
+kurang=st.button("-")
+if st.button("+","-"):
+    st.write("number 1,"+", number 2")
+else:
+    st.write("=")
+
+if st.button("Aloha", type="tertiary"):
+    st.write("Ciao")
