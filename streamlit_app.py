@@ -22,5 +22,3 @@ if st.button("+","-"):
 else:
     st.write("=")
 
-if st.button("Aloha", type="tertiary"):
-    st.write("Ciao")
