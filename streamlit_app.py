@@ -6,9 +6,9 @@ st.write(
 )
 (import streamlit as st
 
-st.markdown("*Streamlit* is **really** ***cool***.")
+st.markdown("*naufa* is **really** ***cool***.")
 st.markdown('''
-    :red[naufa] :orange[can] :green[pink] :pink[text] :violet[in]
+    :red[naufa] :orange[ha] :green[pink] :pink[text] :violet[in]
     :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
 st.markdown("Here's a bouquet &mdash;\
             :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
